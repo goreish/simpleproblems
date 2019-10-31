@@ -1,0 +1,11 @@
+{
+    "name": "findindices",
+    "version": "1.0.0",
+    "description": "Find indices, in an array, of the 2 values that add up to target value",
+    "main": "findindices.js",
+    "scripts": {
+        "start": "node findindices.js"
+    },
+    "author": "Gaafer Goreish",
+    "license": "ISC"
+}
