@@ -57,7 +57,7 @@ function findIndices ()
 
         # Get the index of difference value if it exists or -1
         $otherIndex = $list.IndexOf($target - $list[$index]);
-        if ($otherIndex -ne -1)
+        if ($otherIndex -ne -1 -and $otherIndex -ne $index)
         {
             Write-Debug "list[$index] + list[$otherIndex] = $($list[$index]) + $($list[$otherIndex]) = $target";
             # Assign indices  to result and break out of loop
