@@ -4,7 +4,9 @@
     "description": "Find indices, in an array, of the 2 values that add up to target value",
     "main": "findindices.js",
     "scripts": {
-        "start": "node findindices.js"
+        "start": "node findindices.js",
+        "test": "jest",
+        "testcoverage": "jest --collectCoverage"
     },
     "author": "Gaafer Goreish",
     "license": "ISC",

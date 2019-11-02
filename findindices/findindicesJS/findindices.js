@@ -46,7 +46,7 @@ function findIndices(list, target, debug) {
 
         // Get the index of difference value if it exists or -1
         var otherIndex = list.indexOf(target - list[index]);
-        if (otherIndex > -1) {
+        if (otherIndex > -1 && otherIndex != index) {
             debug &&
                 console.log(
                     `list[${index}] + list[${otherIndex}] = ${list[index]} + ${list[otherIndex]} = ${target}`
@@ -65,3 +65,5 @@ var target = 34;
 
 var result = findIndices(list, target, true);
 console.log(result);
+
+module.exports = findIndices;

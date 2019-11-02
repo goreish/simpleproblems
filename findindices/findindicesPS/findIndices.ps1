@@ -21,7 +21,7 @@
 #       To run function with different values just call with different parameters
 #       e.g. findIndices  -list $inputList -target 10 -debug
 # 
-# Sample Output from: findIndices  -list @(1, 1, 2, 3, 5, 8, 13, 21) -target 5 -debug
+# Sample Output from: findIndices -list @(1, 1, 2, 3, 5, 8, 13, 21) -target 5 -debug
 # DEBUG: Finding indices  of values in array list[1 1 2 3 5 8 13 21] that adds up to [5]
 # DEBUG: Trying list[0] (1)
 # DEBUG: Trying list[1] (1)
@@ -76,4 +76,4 @@ $inputList = @(1, 1, 2, 3, 5, 8, 13, 21);
 $requireTarget = 13;
 
 # Call function with required inputs
-findIndices  -list $inputList -target $requireTarget -debug
+findIndices -list $inputList -target $requireTarget -debug

@@ -1,2 +1,8 @@
+# This file specifies what files git should ignore
+# To learn more about gitignore: https://git-scm.com/docs/gitignore
+
 # Exclude the node_modules directory as it is installed as needed. 
 **/node_modules/
+
+# Exclude the coverage directory, it is created when tests coverage is run.
+**/coverage
