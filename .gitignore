@@ -1,0 +1,2 @@
+# Exclude the node_modules directory as it is installed as needed. 
+**/node_modules/
